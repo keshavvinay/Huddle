@@ -1,0 +1,105 @@
+  .product-name{
+display: -webkit-box;
+    padding: 2% 2% 0% 5%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 4em;
+    font-weight: 100;
+    min-height: 70px;
+    margin: 0;
+    font-weight: 100;
+    color: #440a63;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+ }
+.loading{
+position: absolute;
+}
+.timer{
+position: relative;
+left: 23%;
+top: 20.4%;
+font-size: 20px;
+}
+    .product-image  
+{ 
+	padding: 3% 2% 1% 7%;
+    width: 14%;
+} 
+.live-feed{
+    margin-right: -1px;
+}
+h2{
+	  	    font-family: 'GothamBold' !important;
+
+}
+.logos{
+
+	  display: flex;
+    justify-content: flex-end;
+    margin-right: 3.5px;
+padding-top: 5px;   
+}
+.rating{
+	width: 60%;
+    padding: 21px 128px 3px;
+}
+.product-info{
+	display: flex;
+}
+.review-info{
+	width: 76%;
+    padding: 0px 0px 1px 18px;
+}
+.review-title{
+	margin: 0;
+    color: #FFFFFF;
+    font-size: 3em;
+    padding: 1.5% 0% 0%;
+    font-weight: 100;
+    width: 96%;
+}
+.reviewer{
+	font-style: italic;
+	font-size: 2em;
+	margin:0;
+	color: white;
+}
+  p{
+  	font-family: 'Gotham-Book' !important;
+  }
+  .review-text{
+	display: -webkit-box;
+    font-size: 2em;
+    font-weight: 100;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    color: white;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  padding: 0px 24px 0px 0px;
+  }
+
+.logo-image{
+    width: 24%;
+    top: 0.4%;
+    right: 0.31%;
+    }
+
+  .background-image{
+	position: relative;
+	background-image: url('../JF_MB_RatingsAndReviews_HuddleArea_R3_Wireframe_Background.png');
+	background-repeat: round;
+	height: 100%;
+	width: 100%;
+}
+.flex-control-nav {
+display:none;
+	}
+	.flex-direction-nav {
+    display: none;
+}
+.flex-active-slide{
+	position: relative;
+}
